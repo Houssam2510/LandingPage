@@ -4,7 +4,6 @@ import Badge from "@/components/Badge";
 import WaitlistForm from "@/components/WaitlistForm";
 import Socials from "@/components/Socials";
 
-
 export default function Page() {
   return (
     <main className="relative min-h-[100svh] overflow-hidden">
@@ -31,7 +30,8 @@ export default function Page() {
             <p className="mt-5 text-lg md:text-xl text-muted-foreground">
               We’re crafting a calm, powerful tool for students: summarize PDFs,
               generate flashcards & quizzes, plan revisions, and more ...
-              <br /> <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+              <br />
+              <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
                 All in one place
               </span> !
             </p>
